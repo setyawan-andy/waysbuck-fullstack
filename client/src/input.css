@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Serif:wght@400;700&display=swap');
+
+.btn {
+    @apply shadow-md py-1 px-10 transition duration-300 rounded-md
+}
+
+.btn-red {
+    @apply bg-maroon font-lato font-bold text-xl py-2 text-white
+}
+
+.btn-outline {
+    @apply bg-white font-lato text-xl font-bold text-maroon border-4 border-maroon hover:bg-maroon hover:text-white
+}
+
+.input {
+    @apply py-3 px-2 border-2 border-maroon rounded-md bg-red-50 focus:outline-none placeholder:font-thin text-sm
+}
